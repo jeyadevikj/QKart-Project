@@ -1,0 +1,11 @@
+---
+version: "1"
+services:
+  frontend:
+    image: jeyadevi/qkart-frontend:latest
+    ports:
+      - 3000:3000
+  backend:
+    image: jeyadevi/qkart-backend:latest
+    ports:
+      - 8082:8082

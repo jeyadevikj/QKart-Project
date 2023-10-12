@@ -27,7 +27,7 @@
     "resetMocks": false
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start --port 8081",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test --json --outputFile=testReport.json --watchAll=false",
     "eject": "react-scripts eject"

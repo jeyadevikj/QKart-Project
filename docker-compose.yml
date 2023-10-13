@@ -4,7 +4,7 @@ services:
   frontend:
     image: jeyadevi/qkart-frontend:latest
     ports:
-      - 3000:3000
+      - 8081:8081
   backend:
     image: jeyadevi/qkart-backend:latest
     ports:
